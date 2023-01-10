@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { resolve } = require('path');
 
 // creating the new file
 const writeFile = fileContent =>{
@@ -43,6 +42,6 @@ const copyFile = () => {
 };
 
 module.exports = {
-    writeFile: writeFile,
-    copyFile: copyFile
+    writeFile,
+    copyFile
 };
